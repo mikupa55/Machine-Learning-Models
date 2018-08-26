@@ -78,4 +78,10 @@ int main(int argc, const char * argv[]) {
     l2.display();
     cout << "Predict: 4 years work experience." << endl;
     cout << l2.predict(4) << endl;
+    /* Outputs:
+     y = 1x + 0
+     y = 9555.38x + 27101.7
+     Predict: 4 years work experience.
+     65323.2
+     */
 }
